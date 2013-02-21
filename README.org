@@ -1,0 +1,8 @@
+#+title: HyperTracer - theory
+#+startup: hidestars
+
+HyperTracer - raytracer for rendering 4D worlds in realtime. A
+Master's thesis at AGH University of Science and Technology.
+
+This repository contains things related to written part of my Master's
+thesis.
