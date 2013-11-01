@@ -1,14 +1,89 @@
 #+title: Sketchbook
 #+startup: hidestars
 
-* Spis treści pracy
-  Tak wstępnie
+Raytracing obiektów czterowymiarowych w czasie rzeczywistym w języku Common Lisp.
+
+* Spis treści / plan pracy
+  Tak wstępnie. Work in Progress.
 ** Wstęp
-** Matematyka 4D
-** Matematyka Raytracingu
-** Integracja teoretyczna 4D i Raytracingu
-** Koncepcja świata przedstawionego
-** Implementacja w Common Lisp
+
+*** Temat pracy
+
+    Tematem pracy jest stworzenie programu obrazującego obiekty
+    czterowymiarowe w czasie rzeczywistym za pomocą
+    raytracingu. Zakres pracy obejmuje opracowanie modelu
+    teoretycznego, jego implementacja oraz wizualizacja w postaci
+    działającego raytracera. Celem pracy jest sprawdzenie, czy osoba
+    wystawiona na interaktywną symulację geometrii czterowymiarowej
+    jest w stanie wyrobić sobie co do niej intuicję.
+
+*** Geneza tematu
+
+    W przeciwieństwie do fizycznego świata, w którym na codzień
+    doświadczamy jedynie trzech wymiarów przestrzennych, matematyka
+    teoretyczna nie nakłada ograniczeń na wymiarowość obiektów
+    geometrycznych. Wielu matematyków na co dzień zajmuje się
+    obiektami o dużej, nieskończonej lub ułamkowej liczbie wymiarów,
+    stopniowo wyrabiając sobie intuicję co do tego, jak zachowuje się
+    reprezentacja tych obiektów w przestrzeni trójwymiarowej.
+
+    Bardzo pomocne w pracy z abstrakcyjnymi koncepcjami matematycznymi
+    są narzędzia wizualizacyjne, przedstawiające struktury teoretyczne
+    w sposób przystępny dla wyobraźni i rozumienia
+    człowieka. Szczególnie skuteczne [citation needed] są narzędzia
+    pozwalające na bezpośrednią manipulację przedstawionymi obiektami
+    i dające natychmiastową informację zwrotną.
+
+    (( TODO ))
+
+*** Teza pracy
+
+**** Teza
+     /Pozwalając człowiekowi na swobodne poruszanie się w wizualizacji/
+     /czterowymiarowego świata daje się mu szansę na stworzenie sobie/
+     /intuicji co do tego, jak zmienia się reprezentacja trójwymiarowa/
+     /czterowymiarowych figur poddawanych prostym transformacjom./
+
+**** Podjęte działania
+     W celu wykazania powyższej tezy przeprowadzono następujące działania:
+     - Opracowano model teoretyczny wyświetlania połączonego trzy i czterowymiarowego świata za pomocą raytracingu.
+     - Zaimplementowano wykorzystującą ten model aplikację pozwalającą na przemieszczanie się w świecie przedstawionym w czasie rzeczywistym.
+     - Zbudowano serię scen zawierających trzy i czterowymiarową geometrię.
+
+    TODO to be continued.
+
+
+*** Realizacja projektu
+
+    Praca została zrealizowana jako samodzielna aplikacja komputerowa napisana w języku Common Lisp.
+
+    (( dalsze rzeczy jak coś będzie; pewnie o użyciu cl-opengl do renderingu ))
+
+*** Zawartość pracy
+
+    (( opis struktury pracy ))
+
+
+** Matematyka 4D :STASTEOFTHEART:
+*** Koncepcja wymiarowości świata
+*** Figury N-wymiarowe
+*** Przekształcenia matematyczne w 4 (albo N) D.
+
+** Matematyka Raytracingu :STATEOFTHEART:
+*** Wysyłanie promienia
+*** Przecięcie z bryłami
+
+** Integracja teoretyczna 4D i Raytracingu :STATEOFTHEART:SOLUTION:
+
+*** Przecięcie promienia z figurą w 4D
+*** Oświetlenie w 4D
+
+** Koncepcja świata przedstawionego :SOLUTION:
+*** Backstory
+*** Cel "gry" / symulacji
+*** Mechanika
+
+** Implementacja w Common Lisp :SOLUTION:
 *** Prymitywy matematyczne
 *** Raytracer
 *** UI
