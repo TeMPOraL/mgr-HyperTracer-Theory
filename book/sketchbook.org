@@ -1,0 +1,18 @@
+#+title: Sketchbook
+#+startup: hidestars
+
+* Spis treści pracy
+  Tak wstępnie
+** Wstęp
+** Matematyka 4D
+** Matematyka Raytracingu
+** Integracja teoretyczna 4D i Raytracingu
+** Koncepcja świata przedstawionego
+** Implementacja w Common Lisp
+*** Prymitywy matematyczne
+*** Raytracer
+*** UI
+*** Świat
+
+** ???
+** +Profit+ Bibliografia
